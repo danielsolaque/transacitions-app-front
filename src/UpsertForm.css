@@ -1,0 +1,64 @@
+.upsert-form-header {
+  text-align: center;
+  margin-top: 20px;
+  color: #1b263b;
+}
+
+.upsert-form-header h1 {
+  margin-bottom: 0;
+}
+
+.upsert-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 24px;
+  margin: auto;
+  width: 17.5%;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.form-field label {
+  font-size: 20px;
+  color: #777777;
+}
+
+.form-field input, select {
+  padding: 8px;
+  font-size: 18px;
+  border-radius: 4px;
+  border: 2px solid #1b263b;
+  outline: none;
+}
+
+.form-field input:focus {
+  background-color: #283a5a1e;
+}
+
+.submit-button {
+  margin: auto;
+  width: max-content;
+  font-size: 20px;
+  padding: 12px 36px;
+  background-color: #1b263b;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.submit-button:hover {
+  transform: scale(1.15);
+}
+
+@media (max-width: 768px) {
+  .upsert-form {
+    width: 75%;
+  }
+}
